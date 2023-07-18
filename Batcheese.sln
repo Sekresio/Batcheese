@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{452E6E73-6426-487A-ACF5-1EDA241D72C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6C99EBD0-E024-496A-A86D-3E7CEB18DC5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Batcheese", "src\Batcheese\Batcheese.csproj", "{DF09D444-45BD-42FC-9ED3-389E7804F50E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Batcheese.Tests", "tests\Batcheese.Tests\Batcheese.Tests.csproj", "{F06B1182-0C37-4547-B57B-EAEA9888FBE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF09D444-45BD-42FC-9ED3-389E7804F50E} = {452E6E73-6426-487A-ACF5-1EDA241D72C1}
+		{F06B1182-0C37-4547-B57B-EAEA9888FBE1} = {6C99EBD0-E024-496A-A86D-3E7CEB18DC5D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF09D444-45BD-42FC-9ED3-389E7804F50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF09D444-45BD-42FC-9ED3-389E7804F50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF09D444-45BD-42FC-9ED3-389E7804F50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF09D444-45BD-42FC-9ED3-389E7804F50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06B1182-0C37-4547-B57B-EAEA9888FBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06B1182-0C37-4547-B57B-EAEA9888FBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06B1182-0C37-4547-B57B-EAEA9888FBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06B1182-0C37-4547-B57B-EAEA9888FBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
