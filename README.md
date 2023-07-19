@@ -5,7 +5,9 @@ A lightweight, simple to use extension for dealing with large collections in .NE
 Batcheese allows you to take a large `IEnumerable<T>` and divide it into smaller manageable `Batch<T>` objects with a maximum defined size. This is particularly useful when you need to process large amounts of data in chunks.
 
 ## Installation
-To include this functionality in your project, simply add a reference to the `Batcheese` project.
+To include this functionality in your project, simply download `Batcheese` nuget package.
+
+```https://www.nuget.org/packages/Batcheese/```
 
 ## Usage
 The Batch functionality is added as an extension method for any IEnumerable<T> collection.
