@@ -45,4 +45,9 @@ public class Batches<T> : IEnumerable<Batch<T>>
 
         return values.Batch(newSize);
     }
+    
+    public IEnumerable<T> Flatten()
+    {
+        return _batches.SelectMany(batch => batch);
+    }
 }

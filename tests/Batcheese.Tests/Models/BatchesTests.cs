@@ -38,4 +38,21 @@ public class BatchesTests
         // Assert
         Assert.Throws<ArgumentException>(Action);
     }
+    
+    [Fact]
+    public void Batches_WhenFlattening_ReturnsFlattenedBatches()
+    {
+        // Arrange
+        var batches = new Batches<int>(2)
+        {
+            new(2, new[] { 1, 2 }),
+            new(2, new[] { 3, 4 })
+        };
+
+        // Act
+        var result = batches.Flatten();
+
+        // Assert
+        Assert.Equal(4, result.Count());
+    }
 }

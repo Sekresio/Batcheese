@@ -21,6 +21,7 @@ Batches<int> batches = values.Batch(10);
 - Provides a 'Batches' class that contains 'Batch' objects.
 - Each 'Batch' is an enumerable containing your items.
 - Ability to modify batch size and reallocate the items.
+- Ability to flatten the batches into a single enumerable.
 
 ## Contribution
 Got an idea to make this even more awesome or found a bug? Contributions are welcome!
